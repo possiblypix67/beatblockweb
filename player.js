@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss';
+  Player.uri = 'https://pixeldrain.com/api/file/RT5hsujN?download';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss')
-          Player.start('https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss', []);
+        if (uri != 'https://pixeldrain.com/api/file/RT5hsujN?download')
+          Player.start('https://pixeldrain.com/api/file/RT5hsujN?download', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss';
+    uri = 'https://pixeldrain.com/api/file/RT5hsujN?download';
   
   var arg = search.get('arg');
   if (arg) {
