@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'nogame.love';
+  Player.uri = 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'nogame.love')
-          Player.start('nogame.love', []);
+        if (uri != 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love')
+          Player.start('https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'nogame.love';
+    uri = 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love';
   
   var arg = search.get('arg');
   if (arg) {
