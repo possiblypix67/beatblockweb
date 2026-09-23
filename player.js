@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love';
+  Player.uri = 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love')
-          Player.start('https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love', []);
+        if (uri != 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1')
+          Player.start('https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'https://github.com/possiblypix67/beatblockweb/releases/download/v1.0.0/nogame.love';
+    uri = 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1';
   
   var arg = search.get('arg');
   if (arg) {
