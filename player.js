@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1';
+  Player.uri = 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1')
-          Player.start('https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1', []);
+        if (uri != 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660')
+          Player.start('https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'https://www.dropbox.com/scl/fi/usnj3y2ysx0krnskbeeey/nogame.love?rlkey=ht1wy4lbqaktuhgo46a681x1i&st=rz6p0gkm&dl=1';
+    uri = 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660';
   
   var arg = search.get('arg');
   if (arg) {
