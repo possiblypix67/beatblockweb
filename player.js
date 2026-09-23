@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'https://pixeldrain.com/api/file/RT5hsujN?download';
+  Player.uri = 'https://huggingface.co/datasets/PossiblyPix/bebebe/resolve/main/beatblockextracted.love';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'https://pixeldrain.com/api/file/RT5hsujN?download')
-          Player.start('https://pixeldrain.com/api/file/RT5hsujN?download', []);
+        if (uri != 'https://huggingface.co/datasets/PossiblyPix/bebebe/resolve/main/beatblockextracted.love')
+          Player.start('https://huggingface.co/datasets/PossiblyPix/bebebe/resolve/main/beatblockextracted.love', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'https://pixeldrain.com/api/file/RT5hsujN?download';
+    uri = 'https://huggingface.co/datasets/PossiblyPix/bebebe/resolve/main/beatblockextracted.love';
   
   var arg = search.get('arg');
   if (arg) {
