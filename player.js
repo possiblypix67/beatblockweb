@@ -53,7 +53,7 @@ SOFTWARE.
   Player.version = '11.5';
   Player.cache = true;
   Player.arg = [];
-  Player.uri = 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660';
+  Player.uri = 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss';
   
   // Opens the IndexedDB connection
   var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
@@ -342,8 +342,8 @@ SOFTWARE.
       })
       .catch(function (err) {
         console.log(err);
-        if (uri != 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660')
-          Player.start('https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660', []);
+        if (uri != 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss')
+          Player.start('https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss', []);
       })
   }
   
@@ -405,7 +405,7 @@ SOFTWARE.
   
   var uri = search.get('g');
   if (uri == null)
-    uri = 'https://beta.fileditchstuff5sept.com/beta37/8bee965cb0e1c6d132ce/nogame.love?md5=oKdCOegePLcu2WDdWqwsKA&expires=1790130660';
+    uri = 'https://ts.buzzheavier.com/d/lo90iat40zdx?v=XNRkTjYUhUa5p6oEPXwTt7Ekq8TW3Hyh6XB_QIYgCFtsNnIfUUa6ONS23AwvOi8VnmVJZs5R2_6yM8p334qxjR8xq7rXdHZPsNHRAHLRYavCPl6o3Rl7dQ4B9STqGAfTyRjASaLJuRHRxyBFLLp1C3yPRUgjupQVMhJEWobDs_9gVss';
   
   var arg = search.get('arg');
   if (arg) {
